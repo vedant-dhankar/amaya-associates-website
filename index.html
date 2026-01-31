@@ -1,52 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Amaya Associates | Real Estate Consultants</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amaya Associates — Property Consultants, Sohna Road</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Trusted Property Consultants on Sohna Road, Gurugram</h1>
-      <p>We deal in builder floors, villas, apartments and new project bookings with complete transparency.</p>
-      <a href="https://wa.me/919990662262" target="_blank" class="btn">Chat on WhatsApp</a>
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">AMAYA<span>ASSOCIATES</span></div>
     </div>
-  </section>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <section class="services">
-    <h2>Our Services</h2>
-    <div class="cards">
-      <div class="card">Builder Floors</div>
-      <div class="card">Villas</div>
-      <div class="card">Apartments</div>
-      <div class="card">New Project Bookings</div>
-      <div class="card">Property Management</div>
-    </div>
-  </section>
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <h1>Trusted Property Consultants on Sohna Road, Gurugram</h1>
+        <p class="lead">Buy • Sell • Manage — builder floors, villas & apartments. New project bookings & annual property management.</p>
+        <div class="hero-ctas">
+          <!-- replace WA_LINK_HERE with your whatsapp link like https://wa.me/919990662262 -->
+          <a class="btn btn-primary" href="WA_LINK_HERE" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+          <a class="btn btn-outline" href="#services">Our Services</a>
+        </div>
+      </div>
+    </section>
 
-  <section class="gallery">
-    <h2>Property Gallery</h2>
-    <p class="placeholder">Images will be updated soon.</p>
-  </section>
+    <!-- SERVICES -->
+    <section id="services" class="section services">
+      <div class="wrap">
+        <h2>Our Services</h2>
+        <p class="sub">We specialise in residential properties on Sohna Road and South Gurugram.</p>
 
-  <section class="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Phone:</strong> +91 99906 62262</p>
-    <p><strong>Email:</strong> amayaassociates@gmail.com</p>
-    <p><strong>Address:</strong> Office No. 25, Ground Floor, Omaxe Gurgaon Mall, Sector 49, Gurugram, Haryana 122018</p>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="imgwrap"><img src="assets/builder1.jpg" alt="Builder floors - placeholder"></div>
+            <h3>Builder Floors</h3>
+            <p>Local market knowledge, verified listings, negotiation support.</p>
+          </article>
 
-    <iframe 
-      src="https://www.google.com/maps?q=Omaxe+Gurgaon+Mall+Sector+49&output=embed"
-      loading="lazy">
-    </iframe>
-  </section>
+          <article class="service-card">
+            <div class="imgwrap"><img src="assets/villa1.jpg" alt="Villas - placeholder"></div>
+            <h3>Villas</h3>
+            <p>Premium and independent villas — inspections, paperwork, resale.</p>
+          </article>
 
-  <footer>
-    <p>© 2026 Amaya Associates. All Rights Reserved.</p>
-  </footer>
+          <article class="service-card">
+            <div class="imgwrap"><img src="assets/apartment1.jpg" alt="Apartments - placeholder"></div>
+            <h3>Apartments</h3>
+            <p>2/3/4 BHK listings, resale & new project units, broker-free options.</p>
+          </article>
 
+          <article class="service-card">
+            <div class="imgwrap"><img src="assets/management.jpg" alt="Property management - placeholder"></div>
+            <h3>Property Management (Annual)</h3>
+            <p>Rent collection, maintenance coordination, tenant screening.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="imgwrap"><img src="assets/newproject.jpg" alt="New projects - placeholder"></div>
+            <h3>New Project Bookings</h3>
+            <p>Pre-launch and launch deals, booking assistance, legal checks.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section gallery">
+      <div class="wrap">
+        <h2>Property Gallery</h2>
+        <p class="sub">High-quality images will be added here. (Place your images in <code>/assets/</code>.)</p>
+        <div class="gallery-grid">
+          <!-- placeholders — add your images with these filenames, or update img src -->
+          <div class="gallery-item"><img src="assets/gallery1.jpg" alt="gallery placeholder"></div>
+          <div class="gallery-item"><img src="assets/gallery2.jpg" alt="gallery placeholder"></div>
+          <div class="gallery-item"><img src="assets/gallery3.jpg" alt="gallery placeholder"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="wrap">
+        <h2>About Us</h2>
+        <p>Amaya Associates: Office No. 25, Ground Floor, Omaxe Gurgaon Mall, Sector 49, Gurugram — trusted property consultants serving Sohna Road & nearby areas.</p>
+        <ul class="about-list">
+          <li>Verified listings</li>
+          <li>End-to-end support</li>
+          <li>Local market expertise</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Contact Us</h2>
+          <p><strong>Phone:</strong> +91 99906 62262</p>
+          <p><strong>Email:</strong> amayaassociates@gmail.com</p>
+          <p><strong>Address:</strong> Office No. 25, Ground Floor, Omaxe Gurgaon Mall, Sector 49, Gurugram, Haryana 122018</p>
+          <p class="small">Tap the WhatsApp button to message us directly.</p>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps?q=Omaxe+Gurgaon+Mall+Sector+49&output=embed" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FLOATING WHATSAPP (replace WA_LINK_HERE) -->
+  <a class="whatsapp-fab" href="WA_LINK_HERE" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.52 3.48A11.8 11.8 0 0 0 12 0C5.37 0 .02 5.35.02 12a11.9 11.9 0 0 0 2.02 6.26L0 24l5.95-1.95A11.95 11.95 0 0 0 12 24c6.63 0 12-5.35 12-12 0-3.2-1.25-6.19-3.48-8.52zM12 22c-1.8 0-3.55-.45-5.08-1.3l-.36-.2L4 21l.5-2.52-.2-.36A9.02 9.02 0 0 1 3 12C3 6.48 6.48 3 12 3s9 3.48 9 9-3.48 10-9 10z"/><path d="M17.3 14.1c-.3-.15-1.8-.9-2.1-1-.3-.15-.5-.23-.7.15-.15.35-.6 1-.8 1.2-.15.15-.35.2-.65.07-1.8-.9-3-1.6-4.2-3.5-.3-.45.3-.42.9-1.35.1-.2.05-.35-.02-.5-.07-.15-.7-1.6-.95-2.2-.25-.6-.5-.5-.65-.5-.15 0-.34-.02-.52-.02s-.5.08-.75.36c-.25.27-.95.93-.95 2.28s.98 2.64 1.12 2.82c.15.15 1.95 3 4.73 4.2 1.3.55 2.32.9 3.12 1.2.9.35 1.7.3 2.34.18.7-.13 1.8-.73 2.05-1.44.25-.72.25-1.34.18-1.44-.07-.1-.3-.15-.6-.3z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
 </body>
 </html>
